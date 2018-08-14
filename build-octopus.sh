@@ -10,4 +10,4 @@ for i in `seq 1 8`; do
     merge_cmd="$merge_cmd leg-$i"
     git checkout master
 done
-eval $merge_cmd
+#eval $merge_cmd
